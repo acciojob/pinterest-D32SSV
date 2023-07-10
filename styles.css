@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.photo  {
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.content {
+    text-align: center;
+}
+
+p {
+    margin-left: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ea1919;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
